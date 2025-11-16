@@ -1,0 +1,94 @@
+/* ===== RESET ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ===== NỀN TRANG ===== */
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: linear-gradient(to bottom right, #ffecec, #fff7f0);
+    color: #333;
+    line-height: 1.8;
+}
+
+/* ===== HEADER ===== */
+header {
+    background: #a80000;
+    padding: 40px 20px;
+    text-align: center;
+    color: white;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.25);
+}
+
+header h1 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+/* ===== SECTION ===== */
+.section {
+    width: 85%;
+    max-width: 900px;
+    margin: 30px auto;
+    background: #ffffffee;
+    padding: 25px 30px;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.section h2 {
+    color: #b00000;
+    border-left: 6px solid #b00000;
+    padding-left: 12px;
+    margin-bottom: 15px;
+    font-size: 24px;
+}
+
+/* ===== CARD ===== */
+.card {
+    background: #fff0f0;
+    border-left: 5px solid #cc0000;
+    padding: 18px 20px;
+    margin: 18px 0;
+    border-radius: 8px;
+}
+
+.card h3 {
+    color: #9b0000;
+    margin-bottom: 8px;
+}
+
+/* icon chấm đỏ */
+.card h3 span {
+    color: #b00000;
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+.card ul {
+    padding-left: 22px;
+}
+
+/* ===== LIST BOX ===== */
+.list-box {
+    background: #ffeaea;
+    padding: 18px;
+    border-left: 5px solid #b00000;
+    border-radius: 8px;
+}
+
+.list-box ul {
+    padding-left: 22px;
+}
+
+/* ===== FOOTER ===== */
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    background: #222;
+    color: white;
+}
